@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/*初始化代码*/
+body, div, ul, li, a, span, p, b, i, s, img, input {
+  margin: 0;
+  padding: 0; }
+
+ul, li {
+  list-style: none; }
+
+li {
+  display: inline-block; }
+
+a {
+  text-decoration: none;
+  display: inline-block; }
+
+img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%; }
+
+input {
+  outline: none;
+  border: none; }
+
+.header {
+  width: 10rem;
+  height: 1.1466666667rem;
+  background: rgba(255, 255, 255, 0.79);
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2; }
+  .header .back {
+    width: 0.2rem;
+    height: 0.3466666667rem;
+    margin-left: 0.36rem; }
+    .header .back img {
+      width: 0.2rem;
+      height: 0.3466666667rem; }
+  .header #nav {
+    width: 4rem;
+    height: 100%;
+    margin-left: 2.4266666667rem;
+    display: flex;
+    justify-content: space-between; }
+    .header #nav a {
+      width: 0.9066666667rem;
+      height: 1.12rem;
+      line-height: 1.12rem;
+      text-align: center;
+      font-size: 0.4rem;
+      color: #1c1c1c; }
+    .header #nav .located {
+      color: #65a032;
+      border-bottom: 0.0266666667rem solid #65a032; }
+  .header .cart {
+    width: 0.4266666667rem;
+    height: 0.4266666667rem;
+    margin-left: 1.3866666667rem;
+    position: relative; }
+    .header .cart img {
+      width: 0.4266666667rem;
+      height: 0.4266666667rem; }
+    .header .cart span {
+      width: 0.36rem;
+      height: 0.36rem;
+      border-radius: 50% 50%;
+      font-size: 0.2133333333rem;
+      text-align: center;
+      line-height: 0.36rem;
+      background: #f96004;
+      color: #ffffff;
+      position: absolute;
+      top: -0.1866666667rem;
+      left: 0.28rem; }
+  .header .more {
+    width: 0.08rem;
+    height: 0.36rem;
+    margin-left: 0.4266666667rem; }
+    .header .more img {
+      width: 0.08rem;
+      height: 0.36rem; }
+
+.banner {
+  width: 10rem;
+  height: 10rem; }
+  .banner img {
+    width: 10rem;
+    height: 10rem; }
+
+/*# sourceMappingURL=xiangqingye.css.map */
